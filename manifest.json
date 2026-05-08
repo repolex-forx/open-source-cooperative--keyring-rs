@@ -1,0 +1,39 @@
+{
+  "manifest_version": "1.0",
+  "org": "open-source-cooperative",
+  "repo": "keyring-rs",
+  "versions": [
+    {
+      "commit": "3a46e9ce493aa0b63be84e688cc0723acf6714c5",
+      "parsed_at": "2026-05-08T02:23:54.696249+00:00",
+      "tag": "v4.0.0",
+      "filetree": "filetree/3a46e9ce493aa0b63be84e688cc0723acf6714c5.nq.gz",
+      "blobs": [
+        "blob/87d92c8c24e0e39e90e7ee8f859fb2a6ec751c28.nq.gz",
+        "blob/8be4771b227a66d5c043ee52c08c64d4edda9674.nq.gz",
+        "blob/c32f440ba5ca5030d7893c150d4b8206b729995d.nq.gz",
+        "blob/c5cb2181858ae5994056ef2bf01fb384911c1a3a.nq.gz",
+        "blob/f54eefd2e0c52f8fd7c590781239daf304e2f1ed.nq.gz",
+        "blob/8f9ddb68a1673f0aee48cedc83211fe1362b0115.nq.gz",
+        "blob/ac3c5605d45b8f568fd575fc3f85e67b507c2a2a.nq.gz",
+        "blob/70e126cb17be6d49800fa746fd35d73e6292363c.nq.gz",
+        "blob/86930176b3ec3f72c9219dccd180bfdf6cdae5ce.nq.gz",
+        "blob/91cc7f771d573437eb5ac431eac20009f3284ac1.nq.gz",
+        "blob/7e554dcb6083b16c4d76210d874ff5da45e1d40f.nq.gz",
+        "blob/de779e302cbb0142fb90d3e7c26819d1647ca2fc.nq.gz",
+        "blob/45e373efbc61f4d2828565d192382671565b010d.nq.gz",
+        "blob/335cad39bc42fbb1ca9013edc5cfe6f2bb47bbc8.nq.gz",
+        "blob/8fff472decde25d9d0ab453ac52d506137c31dc1.nq.gz",
+        "blob/d9db0484184ba6aef1aaecbff5a05a50255f2635.nq.gz",
+        "blob/47f6e38f542232e602b77a4c61d86621b3ba8684.nq.gz",
+        "blob/89fd204f31e0bd1217e17d75bfda6ba7ebed6efc.nq.gz",
+        "blob/b277f0fe2e381963699ce05f130d76b3ead100a6.nq.gz"
+      ]
+    }
+  ],
+  "commit": "commit/commit.nq.gz",
+  "branch": "branch/branch.nq.gz",
+  "tag": "tag/tag.nq.gz",
+  "issue": "issue/issue.nq.gz",
+  "pr": "pr/pr.nq.gz"
+}
