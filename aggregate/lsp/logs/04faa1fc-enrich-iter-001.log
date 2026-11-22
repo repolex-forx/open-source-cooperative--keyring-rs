@@ -1,0 +1,18 @@
+[2026-11-22T02:59:38Z] === ENRICH ITERATION 1 START | repo=open-source-cooperative/keyring-rs sha=04faa1fc ===
+[2026-11-22T02:59:38Z] [iter=1] PHASE START: enrich repo=open-source-cooperative/keyring-rs sha=04faa1fc runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/04faa1fc-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/04faa1fc015df37e336f246e2ed6f8235bd4c33e.nq.gz
+[2026-11-22T02:59:43Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-22T02:59:47Z] [iter=1] AST store loaded triples=60265 load_secs=5 mem_mb=175 MB
+[2026-11-22T02:59:47Z] [iter=1] Step 2: Finding LSP targets mem_mb=175 MB
+[2026-11-22T02:59:48Z] [iter=1] LSP targets found call_sites=723 imports=25 extends=0 implements=0 secs=0
+[2026-11-22T02:59:48Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=175 MB
+[2026-11-22T02:59:48Z] [iter=1] Position index built positions=3777 nodes_with_types=4884 secs=0 mem_mb=175 MB
+[2026-11-22T02:59:48Z] [iter=1] Step 3: Starting LSP resolution mem_mb=175 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T02:59:48Z] [iter=1] Resolving target type target_type=call_site count=723
+[2026-11-22T03:00:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.0 files_done=0 resolved=0 errors=0 current=examples/unit-test/runner.rs
+[2026-11-22T03:01:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.6 files_done=1 resolved=294 errors=0 current=src/lib.rs
+[2026-11-22T03:01:16Z] [iter=1] Target type resolved target_type=call_site resolved=634 errors=0 secs=89 mem_mb=175 MB
+[2026-11-22T03:01:16Z] [iter=1] Resolving target type target_type=import_statement count=25
+[2026-11-22T03:01:38Z] [iter=1] Target type resolved target_type=import_statement resolved=21 errors=0 secs=22 mem_mb=175 MB
+[2026-11-22T03:02:07Z] [iter=1] Step 5: Writing final enrichment file triples=7007
+[2026-11-22T03:02:07Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/04faa1fc015df37e336f246e2ed6f8235bd4c33e.nq.gz size_kb=120
+[2026-11-22T03:02:07Z] [iter=1] PHASE END: enrich elapsed_s=149 elapsed_min=2.5 total_triples=7007

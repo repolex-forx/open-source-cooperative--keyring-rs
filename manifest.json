@@ -69,6 +69,94 @@
       ],
       "ast": [
         "aggregate/ast/04faa1fc015df37e336f246e2ed6f8235bd4c33e/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/04faa1fc015df37e336f246e2ed6f8235bd4c33e.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "base64",
+          "ecosystem": "CARGO",
+          "version": "0.22.1",
+          "githubOrg": "marshallpierce",
+          "githubRepo": "rust-base64",
+          "githubCommit": "e14400697453bcc85997119b874bc03d9601d0af",
+          "githubTag": "v0.22.1",
+          "githubUrl": "https://github.com/marshallpierce/rust-base64",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "clap",
+          "ecosystem": "CARGO",
+          "version": "4.5.56",
+          "githubOrg": "clap-rs",
+          "githubRepo": "clap",
+          "githubCommit": "e0c26b09f0457284033610664423a44ed1ab9949",
+          "githubTag": "v4.5.56",
+          "githubUrl": "https://github.com/clap-rs/clap",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "fastrand",
+          "ecosystem": "CARGO",
+          "version": "2.3.0",
+          "githubOrg": "smol-rs",
+          "githubRepo": "fastrand",
+          "githubCommit": "8419f8916f08c63572b4f7cbdc07cec94c1fc5ed",
+          "githubTag": "v2.3.0",
+          "githubUrl": "https://github.com/smol-rs/fastrand",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "keyring-core",
+          "ecosystem": "CARGO",
+          "version": "0.7.2",
+          "githubOrg": "open-source-cooperative",
+          "githubRepo": "keyring-core",
+          "githubCommit": "5e6419e3b6db516017194cb42d14cfb698a9dbc3",
+          "githubTag": "v0.7.2",
+          "githubUrl": "https://github.com/open-source-cooperative/keyring-core.git",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rpassword",
+          "ecosystem": "CARGO",
+          "version": "7.4.0",
+          "githubOrg": "conradkleinespel",
+          "githubRepo": "rpassword",
+          "githubCommit": "24d0dd1f1c26090ee7cdb6fce9d3aaf9cc399663",
+          "githubTag": "v7.4.0",
+          "githubUrl": "https://github.com/conradkleinespel/rpassword",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rprompt",
+          "ecosystem": "CARGO",
+          "version": "2.2.0",
+          "githubOrg": "conradkleinespel",
+          "githubRepo": "rprompt",
+          "githubCommit": "051b2df73c8eeac8e5ef9f5075cf91f05a0b43ec",
+          "githubTag": "v2.2.0",
+          "githubUrl": "https://github.com/conradkleinespel/rprompt",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "zeroize",
+          "ecosystem": "CARGO",
+          "version": "1.8.2",
+          "githubOrg": "RustCrypto",
+          "githubRepo": "utils",
+          "githubUrl": "https://github.com/RustCrypto/utils",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "db-keystore",
+          "ecosystem": "CARGO",
+          "version": "0.3.1",
+          "githubOrg": "stevelr",
+          "githubRepo": "db-keystore",
+          "githubUrl": "https://github.com/stevelr/db-keystore",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/db-keystore-0.3.1/src/lib.rs"
+        }
       ]
     }
   ],
